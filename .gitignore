@@ -1,0 +1,16 @@
+# --- Глобальные правила (для всей разработки) ---
+.idea/
+.vscode/
+*.log
+.DS_Store
+
+# --- Frontend специфичные правила ---
+# Игнорируем зависимости и билд только в папке фронтенда
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+
+# --- Backend специфичные правила ---
+# Игнорируем виртуальное окружение и артефакты компиляции
+backend/node_modules
+backend/.env
